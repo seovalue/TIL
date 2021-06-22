@@ -18,6 +18,7 @@
 - [예외를 처리하는 방법에 대해서 고민해보자.](./handle-exception.md)
 * [spring boot로 보는 Presentation layer의 요청 처리 방식 | junhabaek](https://tech.junhabaek.net/%EB%B0%B1%EC%97%94%EB%93%9C-%EC%84%9C%EB%B2%84-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-presentation-layer-1-%EC%9A%94%EC%B2%AD-%EB%B0%A9%EC%8B%9D%EC%97%90-%EB%94%B0%EB%A5%B8-variation-353fe464bdb4#8810)
 - [ResponseEntity는 어떻게 JSON으로 객체를 변환할까?](how-to-convert-json-in-response-entity.md)
+
 ### Java
 - [패키지 구조는 어떻게 구성하는 것이 좋은가](./package.md)
 - [SqlParameterSource](./sqlParameterSource.md)
@@ -38,7 +39,7 @@
 ### DB
 - [원격 데이터베이스 연결 시 Bind-Address](./remote-db-bind-address.md)
 
-## CI/CD
+### CI/CD
 - [Jenkins 자동 배포]
 
 ### 스프링5 프로그래밍 입문
@@ -48,11 +49,15 @@
 * [chap5. 컴포넌트 스캔](https://github.com/seovalue/spring5-programming-introduction/blob/seovalue/joanne/chap5.md)
 * [chap6. 빈 라이프사이클과 범위](https://github.com/seovalue/spring5-programming-introduction/blob/seovalue/joanne/chap6.md)
 
-## 토비의 스프링
+### 토비의 스프링
+
+
+### 우아한 테크코스 수업
+* [(level3) 0622 JPA](./0622.md)
 
 
 
-## 스프링 부트와 AWS로 혼자 구현하는 웹 서비스
+### 스프링 부트와 AWS로 혼자 구현하는 웹 서비스
 
 
 
@@ -60,10 +65,9 @@
 
 
 ## TODO
-- [ ] 책임 연쇄 패턴
-- [ ] 빌더 패턴
+- [x] 책임 연쇄 패턴
+- [x] 빌더 패턴
 - [x] Request에 Wrapper-Type과 Primitive Type
-- [ ] @RequestBody, @ResponseBody
 - [ ] 브라우저에서 url 요청 시 통신 과정
 - [ ] nginx vs apache vs tomcat
 - [ ] Interceptor
@@ -72,9 +76,7 @@
 - [ ] CORS
 - [ ] @ResponseStatus
 - [ ] SqlParameterSource
-
 - [ ] Mock Test
-
 - [ ] Swagger
 
 
