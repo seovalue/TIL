@@ -25,6 +25,9 @@
 - [패키지 구조는 어떻게 구성하는 것이 좋은가](./package.md)
 - [SqlParameterSource](./sqlParameterSource.md)
 
+### JPA
+- []()
+
 ### Test
 - [TDD와 ATDD](./TDD-ATDD.md)
 - [Mock Test](./mock-test.md)
@@ -61,7 +64,7 @@
 
 
 ### 스프링 부트와 AWS로 혼자 구현하는 웹 서비스
-
+* [2장 스프링 부트에서 테스트코드를 작성하자.](./chap2-springboot-aws.md)
 
 
 ---
