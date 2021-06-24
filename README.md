@@ -57,7 +57,7 @@
 
 ### 우아한 테크코스 수업
 * [(level3) 0622 JPA](./0622.md)
-
+* [(level3) 0624 모의면접](./0624.md)
 
 
 ### 스프링 부트와 AWS로 혼자 구현하는 웹 서비스
@@ -67,20 +67,12 @@
 ---
 
 
-## TODO
-- [x] 책임 연쇄 패턴
-- [x] 빌더 패턴
-- [x] Request에 Wrapper-Type과 Primitive Type
-- [ ] 브라우저에서 url 요청 시 통신 과정
-- [ ] nginx vs apache vs tomcat
-- [ ] Interceptor
-- [ ] Resolver
-- [ ] JwtToken
-- [ ] CORS
-- [ ] @ResponseStatus
-- [ ] SqlParameterSource
-- [ ] Mock Test
-- [ ] Swagger
+### TODO
+- [ ] jdbcTemplate이란 무엇인가
+- [ ] 웹 서버와 서블릿은 어떤 차이를 갖는가 
+- [ ] 왜 argumentResolver에서 인가를 진행하는가
+- [ ] 트랜잭션 격리 레벨에 대해 학습하기
+- [ ] Spring vs Spring boot vs Spring core vs Spring mvc
 
 
 > 잘못된 정보 이슈로 남겨주시면 커피 사드림.
