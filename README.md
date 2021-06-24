@@ -65,6 +65,7 @@
 
 ### 스프링 부트와 AWS로 혼자 구현하는 웹 서비스
 * [2장 스프링 부트에서 테스트코드를 작성하자.](./chap2-springboot-aws.md)
+* [3장 JPA 소개](./chap3-springboot-aws.md)
 
 
 ---
