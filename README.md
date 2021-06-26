@@ -48,6 +48,9 @@
 ### CI/CD
 - [Jenkins 자동 배포]
 
+### ETC
+- [.gitignore가 작동하지 않을 때](./gitignore-작동하지-않을-때.md)
+
 ### 스프링5 프로그래밍 입문
 * [chap2. 스프링 시작하기](https://github.com/seovalue/spring5-programming-introduction/blob/seovalue/joanne/chap2.md)
 * [chap3. 스프링 DI](https://github.com/seovalue/spring5-programming-introduction/blob/seovalue/joanne/chap3.md)
