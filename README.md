@@ -17,7 +17,6 @@
 - [CORS]
 - [@ResponseStatus](./responseStatus-annotation.md)
 - [예외를 처리하는 방법에 대해서 고민해보자.](./handle-exception.md)
-* [spring boot로 보는 Presentation layer의 요청 처리 방식 | junhabaek](https://tech.junhabaek.net/%EB%B0%B1%EC%97%94%EB%93%9C-%EC%84%9C%EB%B2%84-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-presentation-layer-1-%EC%9A%94%EC%B2%AD-%EB%B0%A9%EC%8B%9D%EC%97%90-%EB%94%B0%EB%A5%B8-variation-353fe464bdb4#8810)
 - [ResponseEntity는 어떻게 JSON으로 객체를 변환할까?](how-to-convert-json-in-response-entity.md)
 - [Swagger](./swagger.md)
 - [Web Server, Web Application Server, Web Container](./webServer-WAS-Container.md)
@@ -82,6 +81,7 @@
 - [ ] 왜 argumentResolver에서 인가를 진행하는가
 - [ ] 트랜잭션 격리 레벨에 대해 학습하기
 - [ ] Spring vs Spring boot vs Spring core vs Spring mvc
+- [ ] [spring boot로 보는 Presentation layer의 요청 처리 방식 | junhabaek](https://tech.junhabaek.net/%EB%B0%B1%EC%97%94%EB%93%9C-%EC%84%9C%EB%B2%84-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-presentation-layer-1-%EC%9A%94%EC%B2%AD-%EB%B0%A9%EC%8B%9D%EC%97%90-%EB%94%B0%EB%A5%B8-variation-353fe464bdb4#8810)
 
 
 > 잘못된 정보 이슈로 남겨주시면 커피 사드림.
