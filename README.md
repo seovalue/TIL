@@ -29,6 +29,7 @@
 
 ### 자바 ORM 표준 JPA 프로그래밍
 - [1. JPA 소개](chap1-introduce-jpa.md)
+- [3. 영속성 관리](chap3-persistence.md)
 
 ### Test
 - [TDD와 ATDD](./TDD-ATDD.md)
