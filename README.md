@@ -1,78 +1,73 @@
 # A Piece Of Cake 🍰
 
 ### Spring
-- [ExceptionHandler](./ExceptionHandler.md)
-- [ControllerAdvice](./ControllerAdvice.md)
-- [ResponseEntity](./ResponseEntity.md)
-- [@Transactional](./Transactional.md)
-- [RestController vs Controller](./RestController-Controller.md)
-- [Facade-Pattern](./Facade-Pattern.md)
-- [Layered-Architecture](./Layered-Architecture.md)
-- [DTO는 어느 레이어까지 사용하는 것이 맞을까?](./When-To-Use-DTO.md)
-- [Request에는 의식적으로 Wrapper Type을?](./Request-With-Wrapper.md)
-- [logging - 미완](./logger.md)
-- [Interceptor와 ArgumentResolver](./interceptor-argumentResolver.md)
-- [Interceptor와 ArgumentResolver](./interceptor-argumentResolver-detail.md)
-- [JwtToken](./jwt.md)
+- [ExceptionHandler](spring/ExceptionHandler.md)
+- [ControllerAdvice](spring/ControllerAdvice.md)
+- [ResponseEntity](spring/ResponseEntity.md)
+- [@Transactional](network/Transactional.md)
+- [RestController vs Controller](spring/RestController-Controller.md)
+- [Facade-Pattern](design-pattern/Facade-Pattern.md)
+- [Layered-Architecture](spring/Layered-Architecture.md)
+- [DTO는 어느 레이어까지 사용하는 것이 맞을까?](spring/When-To-Use-DTO.md)
+- [Request에는 의식적으로 Wrapper Type을?](spring/Request-With-Wrapper.md)
+- [logging - 미완](spring/logger.md)
+- [Interceptor와 ArgumentResolver](spring/interceptor-argumentResolver.md)
+- [Interceptor와 ArgumentResolver](spring/interceptor-argumentResolver-detail.md)
+- [JwtToken](spring/jwt.md)
 - [CORS]
-- [@ResponseStatus](./responseStatus-annotation.md)
-- [예외를 처리하는 방법에 대해서 고민해보자.](./handle-exception.md)
-- [ResponseEntity는 어떻게 JSON으로 객체를 변환할까?](how-to-convert-json-in-response-entity.md)
-- [Swagger](./swagger.md)
-- [Web Server, Web Application Server, Web Container](./webServer-WAS-Container.md)
-- [CGI와 Servlet](./cgi-servlet.md)
+- [@ResponseStatus](spring/responseStatus-annotation.md)
+- [예외를 처리하는 방법에 대해서 고민해보자.](spring/handle-exception.md)
+- [ResponseEntity는 어떻게 JSON으로 객체를 변환할까?](spring/how-to-convert-json-in-response-entity.md)
+- [Swagger](spring/swagger.md)
+- [Web Server, Web Application Server, Web Container](spring/webServer-WAS-Container.md)
+- [CGI와 Servlet](spring/cgi-servlet.md)
 
 ### Java
-- [패키지 구조는 어떻게 구성하는 것이 좋은가](./package.md)
-- [SqlParameterSource](./sqlParameterSource.md)
-- [HashMap 구조](./about-hashMap.md)
+- [패키지 구조는 어떻게 구성하는 것이 좋은가](java/package.md)
+- [HashMap 구조](java/about-hashMap.md)
 
 ### 자바 ORM 표준 JPA 프로그래밍
-- [1. JPA 소개](chap1-introduce-jpa.md)
-- [3. 영속성 관리](chap3-persistence.md)
+- [1. JPA 소개](jpa/chap1-introduce-jpa.md)
+- [3. 영속성 관리](jpa/chap3-persistence.md)
 
 ### Test
-- [TDD와 ATDD](./TDD-ATDD.md)
-- [Mock Test](./mock-test.md)
+- [TDD와 ATDD](test/TDD-ATDD.md)
+- [Mock Test](test/mock-test.md)
 
 ### 디자인 패턴
-- [책임연쇄패턴](./책임연쇄패턴.md)
-- [Builder Pattern](./빌더패턴.md)
+- [책임연쇄패턴](design-pattern/책임연쇄패턴.md)
+- [Builder Pattern](design-pattern/빌더패턴.md)
 
 ### Network
-- [REST-API](./REST-API.md)
-- [Cookie와 Session](./Cookie-Session.md)
-- [API란 무엇인가](./API.md)
-- [HTTP vs HTTPS](./Http_Https.md)
+- [REST-API](network/REST-API.md)
+- [Cookie와 Session](network/Cookie-Session.md)
+- [HTTP vs HTTPS](network/Http_Https.md)
+- [Nginx, Apache, Tomcat](network/nginx_apache_tomcat.md)
 
 ### DB
-- [원격 데이터베이스 연결 시 Bind-Address](./remote-db-bind-address.md)
+- [원격 데이터베이스 연결 시 Bind-Address](db/remote-db-bind-address.md)
+- [SqlParameterSource](db/sqlParameterSource.md)
 
 ### CI/CD
 - [Jenkins 자동 배포]
 
 ### ETC
-- [.gitignore가 작동하지 않을 때](./gitignore-작동하지-않을-때.md)
+- [.gitignore가 작동하지 않을 때](etc/gitignore-작동하지-않을-때.md)
 
 ### 스프링5 프로그래밍 입문
-* [chap2. 스프링 시작하기](https://github.com/seovalue/spring5-programming-introduction/blob/seovalue/joanne/chap2.md)
-* [chap3. 스프링 DI](https://github.com/seovalue/spring5-programming-introduction/blob/seovalue/joanne/chap3.md)
-* [chap4. 의존 자동 주입](https://github.com/seovalue/spring5-programming-introduction/blob/seovalue/joanne/chap4.md)
-* [chap5. 컴포넌트 스캔](https://github.com/seovalue/spring5-programming-introduction/blob/seovalue/joanne/chap5.md)
-* [chap6. 빈 라이프사이클과 범위](https://github.com/seovalue/spring5-programming-introduction/blob/seovalue/joanne/chap6.md)
+- [스프링5 프로그래밍 입문](https://github.com/seovalue/spring5-programming-introduction/tree/seovalue/joanne)
 
 ### 토비의 스프링
 
-
 ### 우아한 테크코스 수업
-* [(level3) 0622 JPA](./0622.md)
-* [(level3) 0624 모의면접](./0624.md)
-* [(level3) 0629 JPA-2](./0629.md)
+* [(level3) 0622 JPA](lecture/0622.md)
+* [(level3) 0624 모의면접](lecture/0624.md)
+* [(level3) 0629 JPA-2](lecture/0629.md)
 
 
 ### 스프링 부트와 AWS로 혼자 구현하는 웹 서비스
-* [2장 스프링 부트에서 테스트코드를 작성하자.](./chap2-springboot-aws.md)
-* [3장 JPA 소개](./chap3-springboot-aws.md)
+* [2장 스프링 부트에서 테스트코드를 작성하자.](etc/chap2-springboot-aws.md)
+* [3장 JPA 소개](etc/chap3-springboot-aws.md)
 
 
 ---
