@@ -20,6 +20,7 @@
 - [ResponseEntity는 어떻게 JSON으로 객체를 변환할까?](how-to-convert-json-in-response-entity.md)
 - [Swagger](./swagger.md)
 - [Web Server, Web Application Server, Web Container](./webServer-WAS-Container.md)
+- [CGI와 Servlet](./cgi-servlet.md)
 
 ### Java
 - [패키지 구조는 어떻게 구성하는 것이 좋은가](./package.md)
