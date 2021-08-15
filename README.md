@@ -14,7 +14,6 @@
 - [Interceptor와 ArgumentResolver](spring/interceptor-argumentResolver.md)
 - [Interceptor와 ArgumentResolver](spring/interceptor-argumentResolver-detail.md)
 - [JwtToken](spring/jwt.md)
-- [CORS]
 - [@ResponseStatus](spring/responseStatus-annotation.md)
 - [예외를 처리하는 방법에 대해서 고민해보자.](spring/handle-exception.md)
 - [ResponseEntity는 어떻게 JSON으로 객체를 변환할까?](spring/how-to-convert-json-in-response-entity.md)
@@ -75,11 +74,27 @@
 
 ### TODO
 - [ ] jdbcTemplate이란 무엇인가
-- [x] 웹 서버와 서블릿은 어떤 차이를 갖는가 
 - [ ] 왜 argumentResolver에서 인가를 진행하는가
 - [ ] 트랜잭션 격리 레벨에 대해 학습하기
 - [ ] Spring vs Spring boot vs Spring core vs Spring mvc
 - [ ] [spring boot로 보는 Presentation layer의 요청 처리 방식 | junhabaek](https://tech.junhabaek.net/%EB%B0%B1%EC%97%94%EB%93%9C-%EC%84%9C%EB%B2%84-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-presentation-layer-1-%EC%9A%94%EC%B2%AD-%EB%B0%A9%EC%8B%9D%EC%97%90-%EB%94%B0%EB%A5%B8-variation-353fe464bdb4#8810)
 
+---
+
+### 레벨3 학습 회고 (due 08.19 목)
+- [ ] 애자일 방법론이란?
+- [ ] 아키텍처 설계 방법론
+- [ ] Git Branching
+- [ ] REST하게 API 설계하기
+- [ ] AWS란?
+- [ ] AWS 인스턴스와 인스턴스로 배포하기
+- [ ] S3란 무엇이며 역할
+- [ ] Cloudfront란 무엇이며 역할
+- [ ] Cloudwatch 무엇이며 역할
+- [ ] CI/CD
+- [ ] Jenkins
+- [ ] Nginx의 역할, 사용법
+- [ ] 소나큐브란?
+- [ ] Git Submodule
 
 > 잘못된 정보 이슈로 남겨주시면 커피 사드림.
