@@ -50,8 +50,9 @@
 ### CI/CD
 - [Jenkins 자동 배포]
 
-### ETC
-- [.gitignore가 작동하지 않을 때](etc/gitignore-작동하지-않을-때.md)
+### GIT
+- [.gitignore가 작동하지 않을 때](git/gitignore-작동하지-않을-때.md)
+- [Git branching 전략](git/git-branching.md)
 
 ### 스프링5 프로그래밍 입문
 - [스프링5 프로그래밍 입문](https://github.com/seovalue/spring5-programming-introduction/tree/seovalue/joanne)
@@ -65,8 +66,8 @@
 
 
 ### 스프링 부트와 AWS로 혼자 구현하는 웹 서비스
-* [2장 스프링 부트에서 테스트코드를 작성하자.](etc/chap2-springboot-aws.md)
-* [3장 JPA 소개](etc/chap3-springboot-aws.md)
+* [2장 스프링 부트에서 테스트코드를 작성하자.](git/chap2-springboot-aws.md)
+* [3장 JPA 소개](git/chap3-springboot-aws.md)
 
 
 ---
@@ -82,9 +83,7 @@
 ---
 
 ### 레벨3 학습 회고 (due 08.19 목)
-- [ ] 애자일 방법론이란?
-- [ ] 아키텍처 설계 방법론
-- [ ] Git Branching
+- [x] Git Branching
 - [ ] REST하게 API 설계하기
 - [ ] AWS란?
 - [ ] AWS 인스턴스와 인스턴스로 배포하기
