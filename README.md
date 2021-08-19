@@ -47,13 +47,17 @@
 - [원격 데이터베이스 연결 시 Bind-Address](db/remote-db-bind-address.md)
 - [SqlParameterSource](db/sqlParameterSource.md)
 
-### CI/CD
+### Infra
 - [Jenkins 자동 배포]
+- [Sonarqube 적용기](infra/sonarqube.md)
 
 ### GIT
 - [.gitignore가 작동하지 않을 때](git/gitignore-작동하지-않을-때.md)
 - [Git branching 전략](git/git-branching.md)
 - [Git submodule](git/git-submodule.md)
+
+### CS
+- [코드 커버리지](cs/code-coverage.md)
 
 ### 스프링5 프로그래밍 입문
 - [스프링5 프로그래밍 입문](https://github.com/seovalue/spring5-programming-introduction/tree/seovalue/joanne)
@@ -94,7 +98,7 @@
 - [ ] CI/CD
 - [ ] Jenkins
 - [ ] Nginx의 역할, 사용법
-- [ ] 소나큐브란?
+- [x] 소나큐브란?
 - [x] Git Submodule
 
 > 잘못된 정보 이슈로 남겨주시면 커피 사드림.
