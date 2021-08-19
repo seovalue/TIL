@@ -53,6 +53,7 @@
 ### GIT
 - [.gitignore가 작동하지 않을 때](git/gitignore-작동하지-않을-때.md)
 - [Git branching 전략](git/git-branching.md)
+- [Git submodule](git/git-submodule.md)
 
 ### 스프링5 프로그래밍 입문
 - [스프링5 프로그래밍 입문](https://github.com/seovalue/spring5-programming-introduction/tree/seovalue/joanne)
@@ -94,6 +95,6 @@
 - [ ] Jenkins
 - [ ] Nginx의 역할, 사용법
 - [ ] 소나큐브란?
-- [ ] Git Submodule
+- [x] Git Submodule
 
 > 잘못된 정보 이슈로 남겨주시면 커피 사드림.
