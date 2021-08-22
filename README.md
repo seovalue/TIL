@@ -25,10 +25,11 @@
 - [패키지 구조는 어떻게 구성하는 것이 좋은가](java/package.md)
 - [HashMap 구조](java/about-hashMap.md)
 
-### 자바 ORM 표준 JPA 프로그래밍
-- [1. JPA 소개](jpa/chap1-introduce-jpa.md)
-- [3. 영속성 관리](jpa/chap3-persistence.md)
-- [서비스에 @Transactional을 선언한 경우와 선언하지 않은 경우의 JPA save 동작](jpa/@Transactional_or_not.md)
+### JPA
+- [JPA 소개](jpa/chap1-introduce-jpa.md)
+- [영속성 관리](jpa/chap3-persistence.md)
+- [서비스에 @Transactional을 선언한 경우와 선언하지 않은 경우의 JPA save 동작](jpa/@Transactional_or_not.md)  
+- [연관관계 편의 메서드](jpa/association_method.md)
 
 ### Test
 - [TDD와 ATDD](test/TDD-ATDD.md)
@@ -51,6 +52,7 @@
 ### Infra
 - [Jenkins 자동 배포]
 - [Sonarqube 적용기](infra/sonarqube.md)
+- [CI/CD란?](infra/ci-cd.md)
 
 ### GIT
 - [.gitignore가 작동하지 않을 때](git/gitignore-작동하지-않을-때.md)
