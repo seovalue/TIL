@@ -1,4 +1,5 @@
 # A Piece Of Cake 🍰
+조각글과 더불어 자세한 글은 [여기](https://joanne.tistory.com)에도 작성되어 있어요.
 
 ### Spring
 - [ExceptionHandler](spring/ExceptionHandler.md)
