@@ -1,5 +1,6 @@
-# A Piece Of Cake 🍰
-조각글과 더불어 자세한 글은 [여기](https://joanne.tistory.com)에도 작성되어 있어요.
+# What I Learned.
+간단한 학습 내용을 기록하기 위한 레포지토리예요.  
+자세한 글은 [여기](https://joanne.tistory.com)에도 작성되어 있어요.  
 
 ### Spring
 - [ExceptionHandler](spring/ExceptionHandler.md)
@@ -11,7 +12,6 @@
 - [Layered-Architecture](spring/Layered-Architecture.md)
 - [DTO는 어느 레이어까지 사용하는 것이 맞을까?](spring/When-To-Use-DTO.md)
 - [Request에는 의식적으로 Wrapper Type을?](spring/Request-With-Wrapper.md)
-- [logging - 미완](spring/logger.md)
 - [Interceptor와 ArgumentResolver](spring/interceptor-argumentResolver.md)
 - [Interceptor와 ArgumentResolver](spring/interceptor-argumentResolver-detail.md)
 - [JwtToken](spring/jwt.md)
@@ -73,36 +73,12 @@
 * [(level3) 0624 모의면접](lecture/0624.md)
 * [(level3) 0629 JPA-2](lecture/0629.md)
 
-
 ### 스프링 부트와 AWS로 혼자 구현하는 웹 서비스
 * [2장 스프링 부트에서 테스트코드를 작성하자.](git/chap2-springboot-aws.md)
 * [3장 JPA 소개](git/chap3-springboot-aws.md)
 
-
 ---
 
+### Debt
+- [ ] Log4j 이슈
 
-### TODO
-- [ ] jdbcTemplate이란 무엇인가
-- [ ] 왜 argumentResolver에서 인가를 진행하는가
-- [ ] 트랜잭션 격리 레벨에 대해 학습하기
-- [ ] Spring vs Spring boot vs Spring core vs Spring mvc
-- [ ] [spring boot로 보는 Presentation layer의 요청 처리 방식 | junhabaek](https://tech.junhabaek.net/%EB%B0%B1%EC%97%94%EB%93%9C-%EC%84%9C%EB%B2%84-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-presentation-layer-1-%EC%9A%94%EC%B2%AD-%EB%B0%A9%EC%8B%9D%EC%97%90-%EB%94%B0%EB%A5%B8-variation-353fe464bdb4#8810)
-
----
-
-### 레벨3 학습 회고 (due 08.19 목)
-- [x] Git Branching
-- [ ] REST하게 API 설계하기
-- [ ] AWS란?
-- [ ] AWS 인스턴스와 인스턴스로 배포하기
-- [ ] S3란 무엇이며 역할
-- [ ] Cloudfront란 무엇이며 역할
-- [ ] Cloudwatch 무엇이며 역할
-- [ ] CI/CD
-- [ ] Jenkins
-- [ ] Nginx의 역할, 사용법
-- [x] 소나큐브란?
-- [x] Git Submodule
-
-> 잘못된 정보 이슈로 남겨주시면 커피 사드림.
