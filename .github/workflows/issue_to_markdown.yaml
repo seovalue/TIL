@@ -22,11 +22,12 @@ jobs:
         mkdir -p "$DIRECTORY_NAME"
         echo "# $FILE_TITLE" > "$DIRECTORY_NAME/$FILE_NAME"
         echo "" >> "$DIRECTORY_NAME/$FILE_NAME"
-        IFS=$'\n'
+        IFS=$'\n' # 수정된 부분
         for line in $ISSUE_BODY; do
-          printf '%s\n' "$line" >> "$DIRECTORY_NAME/$FILE_NAME"
+          ESCAPED_LINE=$(echo "$line" | sed 's//\\/g') # 수정된 부분
+          printf '%s\n' "$ESCAPED_LINE" >> "$DIRECTORY_NAME/$FILE_NAME" # 수정된 부분
         done
-        unset IFS
+        unset IFS # 수정된 부분
         git config --local user.email "${{ github.event.sender.email }}"
         git config --local user.name "${{ github.event.sender.login }}"
         git add "./$DIRECTORY_NAME/$FILE_NAME"
