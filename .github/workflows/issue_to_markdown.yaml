@@ -24,8 +24,7 @@ jobs:
         echo "" >> "$DIRECTORY_NAME/$FILE_NAME"
         IFS=$'\n' # 수정된 부분
         for line in $ISSUE_BODY; do
-          ESCAPED_LINE=$(echo "$line" | sed 's//\\/g') # 수정된 부분
-          printf '%s\n' "$ESCAPED_LINE" >> "$DIRECTORY_NAME/$FILE_NAME" # 수정된 부분
+          printf '%q\n' "$line" >> "$DIRECTORY_NAME/$FILE_NAME" # 수정된 부분
         done
         unset IFS # 수정된 부분
         git config --local user.email "${{ github.event.sender.email }}"
