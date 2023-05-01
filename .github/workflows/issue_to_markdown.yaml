@@ -20,10 +20,7 @@ jobs:
         FILE_NAME="${FILE_TITLE// /_}.md"
 
         mkdir -p "$DIRECTORY_NAME"
-        echo "# $FILE_TITLE" > "$DIRECTORY_NAME/$FILE_NAME"
-        echo "" >> "$DIRECTORY_NAME/$FILE_NAME"
-        ENCODED_ISSUE_BODY=$(echo "$ISSUE_BODY" | base64) # 수정된 부분
-        echo "$ENCODED_ISSUE_BODY" >> "$DIRECTORY_NAME/$FILE_NAME" # 수정된 부분
+        echo -e "# $FILE_TITLE\n\n$ISSUE_BODY" > "$DIRECTORY_NAME/$FILE_NAME"
         git config --local user.email "${{ github.event.sender.email }}"
         git config --local user.name "${{ github.event.sender.login }}"
         git add "./$DIRECTORY_NAME/$FILE_NAME"
