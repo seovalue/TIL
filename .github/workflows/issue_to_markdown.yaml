@@ -20,11 +20,15 @@ jobs:
         FILE_NAME="${FILE_TITLE// /_}.md"
 
         mkdir -p "$DIRECTORY_NAME"
-        printf "# %s\n\n%s" "$FILE_TITLE" "${ISSUE_BODY//$'\n'/\\n}" > "$DIRECTORY_NAME/$FILE_NAME"
+        {
+          echo "# $FILE_TITLE"
+          echo ""
+          echo "$ISSUE_BODY"
+        } > "$DIRECTORY_NAME/$FILE_NAME"
         git config --local user.email "${{ github.event.sender.email }}"
         git config --local user.name "${{ github.event.sender.login }}"
         git add "./$DIRECTORY_NAME/$FILE_NAME"
-        git commit -m "docs: add markdown file for issue: $ISSUE_TITLE"
+        git commit -m "Add markdown file for issue: $ISSUE_TITLE"
         git push
 
     - name: Close issue
