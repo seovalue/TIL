@@ -22,12 +22,8 @@ jobs:
         mkdir -p "$DIRECTORY_NAME"
         echo "# $FILE_TITLE" > "$DIRECTORY_NAME/$FILE_NAME"
         echo "" >> "$DIRECTORY_NAME/$FILE_NAME"
-        IFS=$'\n' # 수정된 부분
-        for line in $ISSUE_BODY; do
-          ESCAPED_LINE=$(printf '%q' "$line") # 수정된 부분
-          echo "$ESCAPED_LINE" >> "$DIRECTORY_NAME/$FILE_NAME" # 수정된 부분
-        done
-        unset IFS # 수정된 부분
+        ENCODED_ISSUE_BODY=$(echo "$ISSUE_BODY" | base64) # 수정된 부분
+        echo "$ENCODED_ISSUE_BODY" >> "$DIRECTORY_NAME/$FILE_NAME" # 수정된 부분
         git config --local user.email "${{ github.event.sender.email }}"
         git config --local user.name "${{ github.event.sender.login }}"
         git add "./$DIRECTORY_NAME/$FILE_NAME"
