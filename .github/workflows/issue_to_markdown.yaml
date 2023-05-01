@@ -20,11 +20,13 @@ jobs:
         FILE_NAME="${FILE_TITLE// /_}.md"
 
         mkdir -p "$DIRECTORY_NAME"
-        {
-          echo "# $FILE_TITLE"
-          echo ""
-          echo "$ISSUE_BODY"
-        } > "$DIRECTORY_NAME/$FILE_NAME"
+        echo "# $FILE_TITLE" > "$DIRECTORY_NAME/$FILE_NAME"
+        echo "" >> "$DIRECTORY_NAME/$FILE_NAME"
+        IFS=$'\n'
+        for line in $ISSUE_BODY; do
+          echo "$line" >> "$DIRECTORY_NAME/$FILE_NAME"
+        done
+        unset IFS
         git config --local user.email "${{ github.event.sender.email }}"
         git config --local user.name "${{ github.event.sender.login }}"
         git add "./$DIRECTORY_NAME/$FILE_NAME"
