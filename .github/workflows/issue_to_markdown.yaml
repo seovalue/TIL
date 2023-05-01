@@ -20,7 +20,7 @@ jobs:
         FILE_NAME="${FILE_TITLE// /_}.md"
 
         mkdir -p "$DIRECTORY_NAME"
-        printf "# %s\n\n%s" "$FILE_TITLE" "$ISSUE_BODY" > "$DIRECTORY_NAME/$FILE_NAME"
+        printf "# %s\n\n%s" "$FILE_TITLE" "${ISSUE_BODY//$'\n'/\\n}" > "$DIRECTORY_NAME/$FILE_NAME"
         git config --local user.email "${{ github.event.sender.email }}"
         git config --local user.name "${{ github.event.sender.login }}"
         git add "./$DIRECTORY_NAME/$FILE_NAME"
