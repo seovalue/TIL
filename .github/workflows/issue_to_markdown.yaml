@@ -24,7 +24,7 @@ jobs:
         echo "" >> "$DIRECTORY_NAME/$FILE_NAME"
         IFS=$'\n'
         for line in $ISSUE_BODY; do
-          echo "$line" >> "$DIRECTORY_NAME/$FILE_NAME"
+          echo -e "$line" >> "$DIRECTORY_NAME/$FILE_NAME"
         done
         unset IFS
         git config --local user.email "${{ github.event.sender.email }}"
