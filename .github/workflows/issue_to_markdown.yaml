@@ -21,8 +21,8 @@ jobs:
 
         mkdir -p "$DIRECTORY_NAME"
         echo -e "# $FILE_TITLE\n\n$ISSUE_BODY" > "$DIRECTORY_NAME/$FILE_NAME"
-        git config --local user.email "mailto:seominjeong.dev@gmail.com"
-        git config --local user.name "seovalue"
+        git config --local user.email "${{ github.event.sender.email }}"
+        git config --local user.name "${{ github.event.sender.login }}"
         git add "./$DIRECTORY_NAME/$FILE_NAME"
         git commit -m "docs: add markdown file for issue: $ISSUE_TITLE"
         git push
